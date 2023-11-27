@@ -170,16 +170,18 @@ const SavedScreen = () => {
                   {item.rating}
                 </Text>
               </View>
-              <View style={{ flexDirection: "row", flexWrap: "wrap", marginRight:5 }}>
+              <View style={{ flexDirection: "row" }}>
+              <Text style={styles.priceLabel}>Address: </Text>
                 <Text
                   style={{
                     fontSize: 14,
                     fontFamily: "Kanit",
+                    marginHorizontal:4,
                     color: "white",
-                    marginTop: 4,
+                    marginTop: 5,
                   }}
                 >
-                  {item.address.substring(0, 50)}
+                  {item.address.substring(0, 30)}
                 </Text>
               </View>
 

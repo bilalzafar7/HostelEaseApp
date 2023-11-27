@@ -266,24 +266,6 @@ const EditDetailsScreen = () => {
           </View>
 
           <View>
-            <Text
-              style={{ fontSize: 16, fontFamily: "Kanit", marginBottom: 5 }}
-            >
-              Image:
-            </Text>
-            <Image
-              source={{ uri: userData.image }}
-              style={{
-                width: 100,
-                height: 100,
-                borderRadius: 10,
-                marginVertical: 10,
-                padding: 10,
-              }}
-            />
-          </View>
-
-          <View>
             {editedFirstName !== userData.firstName ||
             editedLastName !== userData.lastName ||
             editedEmail !== userData.email ||

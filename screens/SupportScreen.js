@@ -68,7 +68,7 @@ const SupportScreen = () => {
   ];
 
   const answers = [
-    "Email us at cuilahore.edu.pk",
+    "Email us at @cuilahore.edu.pk",
     "Please fill up the form in HostelInfo, we will look into this",
     "Let us know in the feedback, We will surely start working there soon",
     "Please fill the feedback form. Your idea is much appreciated",

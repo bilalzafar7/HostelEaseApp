@@ -300,7 +300,7 @@ const ProfileScreen = () => {
               paddingHorizontal: 12,
               marginHorizontal: 5,
             }}
-            onPress={() => navigation.navigate('Complains')}
+            onPress={() => navigation.navigate('Support')}
           >
             <Text style={styles.userBtnTxt}>Support</Text>
           </TouchableOpacity>

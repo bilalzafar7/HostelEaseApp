@@ -31,6 +31,7 @@ import ReservationScreen from "./screens/ReservationScreen";
 import Feedback from "./screens/Feedback";
 import ChatScreen from "./screens/ChatScreen";
 import EditDetailsScreen from "./screens/EditDetailsScreen";
+import SupportScreen from "./screens/SupportScreen";
 
 
 const StackNavigator = () => {
@@ -142,10 +143,11 @@ function BottomTabs() {
       </Tab.Navigator>
     );
   }
+  
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        
+      
       <Stack.Screen name="Onboarding" component={Onboarding} options={{headerShown: false}} />
 <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}} />
 <Stack.Screen name="Sign" component={SignupScreen} options={{headerShown: false}} />
@@ -166,6 +168,7 @@ function BottomTabs() {
         <Stack.Screen name="Feedback" component={Feedback}/>
         <Stack.Screen name="Chat" component={ChatScreen}/>
         <Stack.Screen name="Details" component={EditDetailsScreen}/>
+        <Stack.Screen name="Support" component={SupportScreen}/>
 
 
       </Stack.Navigator>

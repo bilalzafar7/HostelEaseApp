@@ -64,7 +64,7 @@ const SupportScreen = () => {
     "Could not find your City",
     "Have idea of some Improvement",
     "Facing issue in rendering",
-    "Rate Us"
+    "Rate Us on App"
   ];
 
   const answers = [
@@ -73,7 +73,7 @@ const SupportScreen = () => {
     "Let us know in the feedback, We will surely start working there soon",
     "Please fill the feedback form. Your idea is much appreciated",
     "Please reload the App, Thank you",
-    "You will see rating Pop Up"
+    "You will see rating Pop Up soon"
   ];
 
   const handleQuestionPress = (index) => {
